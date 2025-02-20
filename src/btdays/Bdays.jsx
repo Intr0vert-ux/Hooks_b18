@@ -21,7 +21,7 @@ const Bdays = () => {
   }
   return (
     <>
-      <div className="container w-full p-5 xl:w-[35%] lg:w-[40%] mx-auto rounded-md shadow">
+      <div className="container w-full p-5 xl:w-1/3 lg:w-[40%] mx-auto rounded-md shadow">
         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-700 to-green-600  text-center p-2 bg-clip-text text-transparent">{bdata.length} Birthdays Todays</h1>
         {bdata.map((item,index)=> {
           return <Singlebday r={remove} {...item} key={index}/>
